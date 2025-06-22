@@ -1,5 +1,7 @@
 # MANUS AI X OOJU XR Hackathon - Unity Starter Project
 
+![OOJU Logo](Assets/ooju-unity-plugin/Resources/ooju_logo.png)
+
 ## 🚀 Introduction
 
 This Unity project is a starter template provided for **MANUS AI X OOJU XR Hackathon** participants. Leverage OOJU's AI-native platform and integrated Unity plugin to develop XR applications quickly and easily.
@@ -26,7 +28,7 @@ This Unity project is a starter template provided for **MANUS AI X OOJU XR Hacka
 ## 🛠 Installation & Setup
 
 ### System Requirements
-- Unity 6000.0 or later
+- Unity 2020.3 or later
 - Windows 10/11 or macOS
 - Meta Quest headset (for testing)
 - Internet connection (for cloud features)
@@ -59,7 +61,9 @@ This Unity project is a starter template provided for **MANUS AI X OOJU XR Hacka
 3. Login with OOJU account (credentials will be provided at hackathon)
 
 ### Sample Scenes
-- `Assets/Scenes/SampleScene.unity` - Basic VR scene
+- `Assets/Scenes/SampleScene.unity` - Basic XR scene
+- `Assets/Scenes/Test__001.unity` - Interaction test scene
+- `Assets/Scenes/Test__002.unity` - Advanced features demo
 
 ### AI-Powered Interaction Generation
 1. **Scene Analysis**

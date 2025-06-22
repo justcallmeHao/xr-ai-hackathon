@@ -15,7 +15,7 @@ D:/OOJU/Tests/Unity/XRxAI_Hackathon
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-49346
+51446
 -job-worker-count
 7
 -background-job-worker-count
@@ -59,12 +59,12 @@ D:/OOJU/Tests/Unity/XRxAI_Hackathon
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [168164]  Target information:
+Player connection [77316]  Target information:
 
-Player connection [168164]  * "[IP] 192.168.1.194 [Port] 0 [Flags] 2 [Guid] 1345696828 [EditorId] 1345696828 [Version] 1048832 [Id] WindowsEditor(7,SANIVEL) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [77316]  * "[IP] 192.168.1.194 [Port] 0 [Flags] 2 [Guid] 2861746590 [EditorId] 2861746590 [Version] 1048832 [Id] WindowsEditor(7,SANIVEL) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [168164] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [168164] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [77316] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [77316] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 7
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -76,9 +76,9 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 16.45 ms, found 16 plugins.
+Refreshing native plugins compatible for Editor in 19.20 ms, found 16 plugins.
 Unity memory allocator detected: MetaXRAudio native memory allocations will be tracked.
-Preloading 2 native plugins for Editor in 2.01 ms.
+Preloading 2 native plugins for Editor in 2.02 ms.
 Initialize engine version: 6000.0.39f1 (15ea7ed0b100)
 [Subsystems] Discovering subsystems at path D:/Program Files/Unity/Hub/Editor/6000.0.39f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path D:/OOJU/Tests/Unity/XRxAI_Hackathon/Assets
@@ -95,48 +95,48 @@ Initialize mono
 Mono path[0] = 'D:/Program Files/Unity/Hub/Editor/6000.0.39f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Program Files/Unity/Hub/Editor/6000.0.39f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/Program Files/Unity/Hub/Editor/6000.0.39f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56708
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56036
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Program Files/Unity/Hub/Editor/6000.0.39f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: D:/Program Files/Unity/Hub/Editor/6000.0.39f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
 Register platform support module: D:/Program Files/Unity/Hub/Editor/6000.0.39f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.003403 seconds.
-- Loaded All Assemblies, in  0.337 seconds
+Registered in 0.002897 seconds.
+- Loaded All Assemblies, in  0.283 seconds
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 306 ms
+Android Extension - Scanning For ADB Devices 540 ms
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.610 seconds
-Domain Reload Profiling: 946ms
-	BeginReloadAssembly (125ms)
+- Finished resetting the current domain, in  0.819 seconds
+Domain Reload Profiling: 1102ms
+	BeginReloadAssembly (102ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (33ms)
-	RebuildNativeTypeToScriptingClass (9ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (8ms)
 	initialDomainReloadingComplete (34ms)
-	LoadAllAssembliesAndSetupDomain (136ms)
-		LoadAssemblies (124ms)
+	LoadAllAssembliesAndSetupDomain (110ms)
+		LoadAssemblies (102ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (133ms)
-			TypeCache.Refresh (132ms)
-				TypeCache.ScanAssembly (123ms)
+		AnalyzeDomain (107ms)
+			TypeCache.Refresh (106ms)
+				TypeCache.ScanAssembly (97ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (610ms)
+	FinalizeReload (820ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (565ms)
+		SetupLoadedEditorAssemblies (771ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (389ms)
+			InitializePlatformSupportModulesInManaged (616ms)
 			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (37ms)
-			ProcessInitializeOnLoadAttributes (91ms)
-			ProcessInitializeOnLoadMethodAttributes (45ms)
+			BeforeProcessingInitializeOnLoad (33ms)
+			ProcessInitializeOnLoadAttributes (78ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -145,14 +145,13 @@ Domain Reload Profiling: 946ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.837 seconds
+- Loaded All Assemblies, in  0.710 seconds
 Script 'CharacterController' has the same name as built-in Unity component.
 AddComponent and GetComponent will not work with this script.
 'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindow.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowDetailsExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowCollectionsPageExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 13.53 ms, found 16 plugins.
+Refreshing native plugins compatible for Editor in 12.90 ms, found 16 plugins.
 Native extension for Android target not found
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
@@ -163,10 +162,10 @@ Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-Refreshing native plugins compatible for Editor in 12.47 ms, found 16 plugins.
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 13.06 ms, found 16 plugins.
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
@@ -177,58 +176,94 @@ Mono: successfully reloaded assembly
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.463 seconds
-Domain Reload Profiling: 2297ms
-	BeginReloadAssembly (152ms)
+- Finished resetting the current domain, in  0.823 seconds
+Domain Reload Profiling: 1531ms
+	BeginReloadAssembly (130ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (30ms)
-	RebuildCommonClasses (31ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (35ms)
-	LoadAllAssembliesAndSetupDomain (606ms)
-		LoadAssemblies (407ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (508ms)
+		LoadAssemblies (321ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (294ms)
-			TypeCache.Refresh (212ms)
-				TypeCache.ScanAssembly (194ms)
-			BuildScriptInfoCaches (64ms)
-			ResolveRequiredComponents (14ms)
-	FinalizeReload (1463ms)
+		AnalyzeDomain (264ms)
+			TypeCache.Refresh (179ms)
+				TypeCache.ScanAssembly (163ms)
+			BuildScriptInfoCaches (67ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (824ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1314ms)
+		SetupLoadedEditorAssemblies (686ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (8ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (101ms)
-			ProcessInitializeOnLoadAttributes (1042ms)
-			ProcessInitializeOnLoadMethodAttributes (155ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (99ms)
+			ProcessInitializeOnLoadAttributes (428ms)
+			ProcessInitializeOnLoadMethodAttributes (145ms)
 			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (6ms)
-Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 12.93 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 0.07 ms.
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 13.58 ms, found 16 plugins.
+Preloading 2 native plugins for Editor in 0.06 ms.
 Unloading 300 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 9587 unused Assets / (5.7 MB). Loaded Objects now: 10374.
-Memory consumption went from 221.5 MB to 215.8 MB.
-Total: 11.545800 ms (FindLiveObjects: 0.827800 ms CreateObjectMapping: 0.816500 ms MarkObjects: 7.139400 ms  DeleteObjects: 2.761700 ms)
+Unloading 9595 unused Assets / (5.4 MB). Loaded Objects now: 10382.
+Memory consumption went from 218.3 MB to 212.8 MB.
+Total: 9.689400 ms (FindLiveObjects: 0.827800 ms CreateObjectMapping: 0.798600 ms MarkObjects: 5.810800 ms  DeleteObjects: 2.251600 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 29440.966149 seconds.
+  Time since last request: 3932.429431 seconds.
+  path: Assets/OOJU/Asset/My Assets/Car_Red.glb
+  artifactKey: Guid(bcccb32c60fa3994997b1cc446798abc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OOJU/Asset/My Assets/Car_Red.glb using Guid(bcccb32c60fa3994997b1cc446798abc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '47a4c947a389a84934edcd33ba985781') in 2.7499384 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/OOJU/Asset/ZIP/blue dragon.glb
+  artifactKey: Guid(97898075b9702314493393ebc0ab27d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OOJU/Asset/ZIP/blue dragon.glb using Guid(97898075b9702314493393ebc0ab27d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8a507f69a6cd49fa7a271207c51c0a2e') in 0.1044066 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/OOJU/Asset/My Assets/GasStation.glb
+  artifactKey: Guid(8575d78ff8fdbc544b68e22c9ceb4382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OOJU/Asset/My Assets/GasStation.glb using Guid(8575d78ff8fdbc544b68e22c9ceb4382) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '49591c5bfdd3a77c4167948a5dbaf263') in 0.0402761 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
   path: Assets/OOJU/Asset/My Assets/sketchfab_VR_Thinker_03b49569a54f4ce7ae1219b70f2bd255.glb
   artifactKey: Guid(9adabf8125c82964a9d75b3153313918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OOJU/Asset/My Assets/sketchfab_VR_Thinker_03b49569a54f4ce7ae1219b70f2bd255.glb using Guid(9adabf8125c82964a9d75b3153313918) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f33aea9a16122cf6e7dde0816d52f6c9') in 2.6467659 seconds
+Start importing Assets/OOJU/Asset/My Assets/sketchfab_VR_Thinker_03b49569a54f4ce7ae1219b70f2bd255.glb using Guid(9adabf8125c82964a9d75b3153313918) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '415a3f56ae11f5005b25facec4d37b47') in 0.0220073 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/OOJU/Asset/My Assets/Template_FPS.glb
+  artifactKey: Guid(1df848792c784db49abdafdca4145c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OOJU/Asset/My Assets/Template_FPS.glb using Guid(1df848792c784db49abdafdca4145c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '36c603cdf6d04caf7d57af6cf2f9bf43') in 0.7478995 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 356
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/OOJU/Asset/My Assets/Template_Surgery.glb
+  artifactKey: Guid(6c09cb20a6d68ee4b99d43bd930d2d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OOJU/Asset/My Assets/Template_Surgery.glb using Guid(6c09cb20a6d68ee4b99d43bd930d2d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '83f2eb7c67e547b67222f447976d320b') in 4.4087047 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1636
+
