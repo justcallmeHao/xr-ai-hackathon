@@ -1,6 +1,6 @@
 # MANUS AI X OOJU XR Hackathon - Unity Starter Project
 
-![OOJU Logo](Assets/ooju-unity-plugin/Resources/ooju_logo.png)
+![OOJU Logo](XRxAI_Hackathon/Assets/ooju-unity-plugin/Resources/ooju_logo.png)
 
 ## 🚀 Introduction
 
