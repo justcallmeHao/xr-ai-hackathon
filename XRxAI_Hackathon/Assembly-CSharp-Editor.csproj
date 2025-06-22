@@ -1738,14 +1738,6 @@
       <Project>{7292A312-0454-8914-9344-903EB3AE45E6}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
-    <ProjectReference Include="OOJUInteraction.Runtime.csproj">
-      <Project>{9DAE7D51-F744-2F33-EE4D-3F543E6B7BEC}</Project>
-      <Name>OOJUInteraction.Runtime</Name>
-    </ProjectReference>
-    <ProjectReference Include="OOJUInteraction.Editor.csproj">
-      <Project>{8F1096AD-A17D-E38F-D5B1-8AEBF84BB302}</Project>
-      <Name>OOJUInteraction.Editor</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

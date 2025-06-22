@@ -95,6 +95,17 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
+    "com.ooju.unityplugin": {
+      "version": "https://github.com/Unewverse/ooju-unity-plugin.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0",
+        "com.unity.cloud.gltfast": "6.10.1",
+        "com.unity.nuget.newtonsoft-json": "3.0.2"
+      },
+      "hash": "2f928f65a0620454090a8606aa8364b7a138c2d8"
+    },
     "com.ooju.xr": {
       "version": "https://github.com/Unewverse/ooju-unity-xr.git",
       "depth": 0,
@@ -223,7 +234,7 @@
     },
     "com.unity.nuget.newtonsoft-json": {
       "version": "3.2.1",
-      "depth": 3,
+      "depth": 1,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"

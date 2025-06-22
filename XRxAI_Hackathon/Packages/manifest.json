@@ -1,5 +1,11 @@
 {
   "dependencies": {
+<<<<<<< Updated upstream
+=======
+    "com.meta.xr.sdk.core": "71.0.0",
+    "com.meta.xr.sdk.interaction": "71.0.0",
+    "com.ooju.unityplugin": "https://github.com/Unewverse/ooju-unity-plugin.git",
+>>>>>>> Stashed changes
     "com.ooju.xr": "https://github.com/Unewverse/ooju-unity-xr.git",
     "com.unity.ai.navigation": "2.0.6",
     "com.unity.cloud.gltfast": "6.13.0",
