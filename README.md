@@ -125,16 +125,6 @@ OOJU provides intuitive hand gesture controls that make objects respond to your 
 - **Meta Quest**: Available on-site for testing
 - **Technical Mentoring**: Real-time support from OOJU team
 
-### Documentation & Resources
-- [OOJU Plugin Detailed Guide](Assets/ooju-unity-plugin/README.md)
-- Unity XR Interaction Toolkit Documentation
-- Meta XR SDK Guide
-
-### Contact
-- **Email**: support@ooju.world
-- **Website**: https://www.ooju.world/
-
-
 ## 📝 License
 
 This project is provided for educational and development purposes for hackathon participants. OOJU Unity Plugin may require separate licensing for commercial use.
