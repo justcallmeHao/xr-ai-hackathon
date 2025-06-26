@@ -76,27 +76,6 @@ This Unity project is a starter template provided for **MANUS AI X OOJU XR Hacka
    - Choose hand gesture controls
    - Configure gesture effects and parameters
 
-## 👋 Control with Hands
-
-OOJU provides intuitive hand gesture controls that make objects respond to your hand movements in XR, creating natural and engaging interactions without complex coding.
-
-### Hand Gesture System
-- **Wave**: Trigger various effects by waving at objects
-- **Point**: Direct pointing interactions for selection and activation
-- **Grab**: Natural grabbing motions for object manipulation
-- **Pinch**: Precise pinch gestures for fine control
-
-### How to Use Hand Controls
-1. **Select Object**: Choose the object you want to make interactive in your scene
-2. **Choose Hand Gesture**: Select from available gestures (Wave, Point, Grab, Pinch)
-3. **Test in XR**: Experience the interaction on Meta Quest headset
-
-### Benefits for Rapid Prototyping
-- **No Coding Required**: Set up complex hand interactions without writing scripts
-- **Instant Feedback**: See results immediately in VR
-- **Natural Interactions**: Create intuitive user experiences that feel magical
-- **Quick Iterations**: Easily modify and test different interaction patterns
-
 ## 🏆 Hackathon Tips
 
 ### Rapid Prototyping
