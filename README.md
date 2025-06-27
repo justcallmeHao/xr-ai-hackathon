@@ -9,6 +9,11 @@ This Unity project is a starter template provided for **MANUS AI X OOJU XR Hacka
 - **Theme**: Vibe-create Realities - AI meets Extended Reality
 - **Details**: [https://lu.ma/7ldj1sd1](https://lu.ma/7ldj1sd1)
 
+### 💝 Prerequisite
+- **Rodin AI**: Sign up and prepare with the API key (We will provide a free Business plan ($120) at the event.)
+- **Sketchfab**: Sign up and prepare with the API key
+- **MCP Cocktail Examples**: https://www.ooju.world/blogs/ooju-manus-ai-hackathon-in-singapore
+
 ## ✨ Key Features
 
 ### 🔧 OOJU Unity Plugin
