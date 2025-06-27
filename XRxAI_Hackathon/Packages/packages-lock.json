@@ -113,7 +113,7 @@
         "com.unity.cloud.gltfast": "6.10.1",
         "com.unity.nuget.newtonsoft-json": "3.0.2"
       },
-      "hash": "0806db48cd64494e301ce70b76d809b2db1ae51a"
+      "hash": "675748ace8539019fa0bdd804f16780399dd7bbd"
     },
     "com.ooju.xr": {
       "version": "https://github.com/Unewverse/ooju-unity-xr.git",
