@@ -1,4 +1,4 @@
-# MANUS AI X OOJU XR Hackathon - Unity Starter Project
+# MANUS AI X OOJU XR Hackathon - UQ STUDENT PROJECT
 
 ## 🚀 Introduction
 
