@@ -1,0 +1,40 @@
+{
+  "Items": [
+    {
+      "timestamp": 2.01,
+      "hand": "Left",
+      "fingers": [
+        {
+          "name": "Thumb",
+          "fullCurl": 0.5,
+          "baseCurl": 0.3,
+          "tipCurl": 0.7,
+          "pinch": 0.2,
+          "spread": 0.1
+        },
+        {
+          "name": "Index",
+          "fullCurl": 0.4,
+          "baseCurl": 0.2,
+          "tipCurl": 0.6,
+          "pinch": 0.3,
+          "spread": 0.2
+        }
+      ]
+    },
+    {
+      "timestamp": 2.01,
+      "hand": "Right",
+      "fingers": [
+        {
+          "name": "Thumb",
+          "fullCurl": 0.45,
+          "baseCurl": 0.25,
+          "tipCurl": 0.65,
+          "pinch": 0.15,
+          "spread": 0.05
+        }
+      ]
+    }
+  ]
+}
